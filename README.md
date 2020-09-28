@@ -1,6 +1,6 @@
 # README
 
-* Ruby version
+* Ruby version: ruby 2.6.6p146
 
 * System dependencies
 
@@ -16,6 +16,6 @@
 
 * Deployment 
 
-https://talalttargyakosztalya.herokuapp.com/
+https://learnsomeruby.herokuapp.com/
 
 * ...
