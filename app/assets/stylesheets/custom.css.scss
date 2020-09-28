@@ -1,0 +1,25 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: black !important;
+}
+ 
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color:red !important;
+}
+
+.jumbotron {
+    height: 100%;
+    margin-top: 1cm;
+    background-image: asset-url('background.jpg');
+    color: white;
+    text-align: center;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
