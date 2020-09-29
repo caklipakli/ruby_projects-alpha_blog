@@ -20,8 +20,8 @@
               <%= link_to "Edit", edit_article_path(article), class: "btn btn-outline-info" %>
               <%= link_to "Delete", article_path(article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %>
             </div>
-            <div class="card-footer text-muted">Created at
-              <%=time_ago_in_words(article.created_at)%>
+            <div class="card-footer text-muted">Created
+              <%=time_ago_in_words(article.created_at)%> ago
             </div>
           </div>
         </div>
