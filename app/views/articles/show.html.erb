@@ -16,8 +16,8 @@
 </p>
 
 <p>
-  <strong>String:</strong>
-  <%= @article.string %>
+  <strong>By:</strong>
+  <%= @article.user.username %>
 </p>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
